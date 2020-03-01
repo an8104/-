@@ -1,33 +1,31 @@
-<!DOCTYPE html>
-<!-- saved from url=(0409)file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97.html -->
 <html lang="zh-cmn-Hans"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<meta name="generator" content="OSGeo China Chapter">
-<meta name="applicable-device" content="pc,mobile">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="www.osgeo.cn">
-<meta name="Copyright" content="www.osgeo.cn">
-
-
-<script src="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/jquery-3.3.1.min.js"></script>
-<script src="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/bootstrap.min.js"></script>
-<script src="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/jquery.validate.min.js"></script>
-<script src="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/jquery.magnific-popup.min.js"></script>
-<script src="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/leaflet.js"></script>
-<script src="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/leaflet.ChineseTmsProviders.js"></script>
-<link rel="stylesheet" href="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/bootstrap.min.css">
-<link rel="stylesheet" href="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/leaflet.css">
-
-<link rel="stylesheet" href="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/style.css" type="text/css">
 
 
 
-<title>大地坐标系统转换为高斯平面直角坐标系在线转换工具,在线计算,在线计算器,计算器在线计算</title>
-<meta name="keywords" content=",在线计算,在线计算器,计算器在线计算">
-<meta name="description" content="OSGeo中国中心实验室，关注开源GIS，开放数据">
-<link rel="stylesheet" href="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/star-rating.css" type="text/css" media="all">
-<link rel="stylesheet" href="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/pure-min.css" type="text/css" media="all">
-<script type="text/javascript" src="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/star-rating.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -141,6 +139,10 @@ line-height: 24px;
 #MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
 #MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
 .MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
 </style></head>
 <body>
 
@@ -176,7 +178,7 @@ line-height: 24px;
 <textarea class="form-control" id="taD" cols="20" name="S1" rows="1"></textarea></div>
 </div>
 <div class="form-group">
-
+<label class="col-sm-2 control-label"></label>
 <div class="col-sm-offset-2 col-sm-10">
 <input type="button" class="btn btn-primary" id="run_btn" value="转换" onclick="return btZhuanHuan_onclick()">
 <input id="btClean" type="reset" class="btn btn-primary" value="清除" onclick="return btClean_onclick()">
@@ -207,16 +209,21 @@ line-height: 24px;
 <div class="col-sm-9">
 <textarea class="form-control" id="taV" cols="20" name="S5" rows="1"></textarea></div>
 </div>
-
+<div class="form-group">
+<label class="col-sm-2 control-label"></label>
+<div class="col-sm-9">
+<input class="form-control" id="tbWarning" style="border-style: none; border-color: #eeeeee; width: 236px; color: #800000;" type="text">
+</div>
+</div>
 <div class="form-group">
 <div class="col-sm-2"></div>
 <div class="col-sm-10">
-<b>xy：</b></div>
+<b>xy:</b></div>
 </div>
 <div class="form-group">
 <div class="col-sm-2"></div>
 <div class="col-sm-9">
-<textarea class="form-control" id="taXY" name="S8" rows="2" cols="60"></textarea>
+<textarea class="form-control" id="taXY" name="S8" rows="1" cols="40"></textarea>
 </div>
 </div>
 </fieldset>
@@ -228,12 +235,14 @@ line-height: 24px;
 
 </ul>
 </div>
-<hr>
+
 <div class="panel-body">
 
+<script async="" src="file:///C:/Users/Administrator/Documents/index1_files/adsbygoogle.js"></script>
 
-
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 <h3 id="app">APP说明</h3>
@@ -254,7 +263,133 @@ line-height: 24px;
 
 
 </div>
-
+<div id="pycode"><script>
+//北京54转换为华夏平面坐标系统
+function btZhuanHuan_onclick() {
+//清除显示结果
+taA.value = "";
+taU.value = "";
+taS.value = "";
+taT.value = "";
+taV.value = "";
+var pi = Math.PI;
+var arrC4 = taC.value.split("\n"); //保存在数组中
+var arrD4 = taD.value.split("\n");
+if (arrC4.length != arrD4.length) {
+tbWarning.value = "输入纬度和经度的个数不一样多，请检查。";
+}
+for (var i = 0; i < arrC4.length; i++) {
+if (isNaN(arrC4[i]) || isNaN(arrD4[i]) || arrC4[i] == "" || arrD4[i] == "")
+break;
+else {
+c4 = arrC4[i];
+d4 = arrD4[i]; //输入纬度和经度
+f4 = parseInt(d4) + (parseInt(d4 * 100) - parseInt(d4) * 100) / 60 + (d4 * 10000 - parseInt(d4 * 100) * 100) / 3600
+u4 = parseInt((f4 - 1.5) / 3) + 1
+a4 = u4 * 3;
+b4 = parseInt(a4, 10) + (parseInt((a4 * 100), 10) - parseInt(a4) * 100) / 60 + (a4 * 10000 - parseInt(a4 * 100) * 100) / 3600
+e4 = parseInt(c4) + (parseInt(c4 * 100) - parseInt(c4) * 100) / 60 + (c4 * 10000 - parseInt(c4 * 100) * 100) / 3600
+g4 = f4 - b4;
+h4 = g4 / 57.2957795130823;
+i4 = Math.tan(e4 * (pi / 180 ));
+j4 = Math.cos(e4 * (pi / 180 ));
+k4 = 0.006738525415 * j4 * j4;
+l4 = i4 * i4;
+m4 = 1 + k4;
+n4 = 6399698.9018 / Math.sqrt(m4);
+O4 = h4 * h4 * j4 * j4;
+p4 = i4 * j4;
+q4 = p4 * p4;
+r4 = (32005.78006 + q4 * (133.92133 + q4 * 0.7031));
+s4 = 6367558.49686 * e4 / 57.29577951308 - p4 * j4 * r4 + ((((l4 - 58) * l4 + 61) * O4 / 30 + (4 * k4 + 5) * m4 - l4) * O4 / 12 + 1) * n4 * i4 * O4 / 2;
+t4 = ((((l4 - 18) * l4 - (58 * l4 - 14) * k4 + 5) * O4 / 20 + m4 - l4) * O4 / 6 + 1) * n4 * (h4 * j4);
+v4 = u4 * 1000000 + 500000 + t4;
+taA.value += a4 + "\n";
+taU.value += u4 + "\n";
+taS.value += s4 + "\n";
+taT.value += t4 + "\n";
+taV.value += v4 + "\n";
+taXY.value += s4 + "," + v4 + "\n";
+}
+}
+}
+function btClean_onclick() {
+//清除显示结果
+taA.value = "";
+taU.value = "";
+taS.value = "";
+taT.value = "";
+taV.value = "";
+//清除输入
+taC.value = "";
+taD.value = "";
+taXY.value = "";
+}
+// /**
+// * 格式化角度为字符串
+// */
+function formatDegree(value) {
+value = Math.abs(value);
+var v1 = Math.floor(value);
+var v2 = Math.floor((value - v1) * 60);
+var v3 = Math.round((value - v1) * 3600 % 60);
+return v1 + '°' + v2 + '\'' + v3 + '"';
+}
+// /**
+// * 格式化经纬度为字符串
+// */
+//function format
+function formatLatLng(pt) {
+var latName, lngName;
+var lat = pt.lat();
+var lng = pt.lng();
+latName = lat >= 0 ? '北纬' : '南纬';
+lngName = lng >= 0 ? '东经' : '西经';
+return lngName + formatDegree(lng) + '(' + (Math.round(lng * 100000)) / 100000 + ')' + ' ' + latName + formatDegree(lat) + '(' + (Math.round(lat * 10000)) / 10000 + ')';
+}
+//小数格式转换为度分秒格式
+function btConvertToJiao_onclick() {
+var jingweidu;
+var jwInt;
+if (decimalJWInput.value != "")//小数格式中输入了值
+{
+jingweidu = decimalJWInput.value;
+jiaoJWOutput.value = formatDegree(jingweidu);
+errorTips.value = "";
+}
+else {
+errorTips.value = "输入出错，请重新输入！";
+}
+}
+//度分秒转换为小数格式
+function ConvertToD_onclick() {
+var du = 0;
+var fen = 0;
+var miao = 0;
+var chuohe = 0;
+if (duInput.value != "") {
+du = duInput.value;
+}
+else {
+du = 0;
+}
+if (fenInput.value != "") {
+fen = fenInput.value;
+}
+else
+fen = 0;
+if (miaoInput.value != "") {
+miao = miaoInput.value;
+}
+else
+miao = 0;
+chuohe = miao / 60;
+chuohe = Number(chuohe) + Number(fen);
+chuohe = chuohe / 60;
+chuohe = Number(chuohe) + Number(du);
+decimalJWOutput.value = Math.round(chuohe * 100000) / 100000;
+}
+</script></div>
 <script type="text/javascript">
 var canvas = document.getElementById("pychart");
 canvas.setAttribute('height', '0px');
@@ -292,7 +427,7 @@ if (!urlstatus) {
 $("#nava a").eq(-1).addClass('current');
 }
 </script>
-<script src="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/MathJax.js" id=""></script>
-<script type="text/javascript" src="file:///C:/Users/Administrator/Documents/%E5%A4%A7%E5%9C%B0%E5%9D%90%E6%A0%87%E7%B3%BB%E7%BB%9F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E9%AB%98%E6%96%AF%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97,%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97%E5%99%A8,%E8%AE%A1%E7%AE%97%E5%99%A8%E5%9C%A8%E7%BA%BF%E8%AE%A1%E7%AE%97_files/gscript.js"></script>
+
+
 
 </body></html>
